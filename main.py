@@ -12,7 +12,7 @@ LANG_FILE = "last_language.txt"
 
 LANGUAGES = {
     "zh": {
-        "title": "文件标准化处理工具",
+        "title": "固定资产文件标准化处理工具",
         "select_file": "选择文件",
         "start": "开始处理",
         "progress": "处理进度",
@@ -20,7 +20,7 @@ LANGUAGES = {
         "done": "处理完成！已打开文件所在目录。",
     },
     "mn": {
-        "title": "Файлын стандартжуулах хэрэгсэл",
+        "title": "Бэлэгтийн бэлэгт файлын стандартизэлтийн бэлэглэх хэрэгсэл",
         "select_file": "Файл сонгох",
         "start": "Боловсруулж эхлэх",
         "progress": "Явц",
@@ -28,7 +28,7 @@ LANGUAGES = {
         "done": "Боловсруулалт дууслаа! Файлын хавтас нээгдлээ。",
     },
     "en": {
-        "title": "File Standardization Tool",
+        "title": "Fixed Asset File Standardization Tool",
         "select_file": "Select File",
         "start": "Start Processing",
         "progress": "Progress",
@@ -69,8 +69,8 @@ class FileProcessorApp:
 
         self.style = ttk.Style(theme="cosmo")
         self.root.title(self.texts["title"])
-        self.root.geometry("660x380")
-        self.root.minsize(560, 340)
+        self.root.geometry("1160x480")
+        self.root.minsize(760, 480)
 
         self.create_widgets()
 
